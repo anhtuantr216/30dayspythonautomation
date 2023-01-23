@@ -1,2 +1,2 @@
-# nerdyproject
-# Project 1: The first Github project
+# 30 days automate the boring staff with Python
+# Day 1: Generating random quiz files
