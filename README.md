@@ -2,7 +2,7 @@
 
 ## Day 1: Generating random quiz files
 The lesson today is to generate 35 different quiz files with 50 different questions about capital of states. The code is below:
-for quizNum in range(35):
+`for quizNum in range(35):
     quizfile = open('quizfile%s.txt' %(quizNum+1), 'w')
     ansfile = open('quiz_answer%s.txt' %(quizNum+1), 'w')
     quizfile.write('Date:\n\nName:\n\n')
@@ -23,4 +23,4 @@ for quizNum in range(35):
         quizfile.write('\n')
         ansfile.write('%s. %s\n' %(questionNum+1, 'ABCD'[answeroptions.index(correctanswer)]))
     quizfile.close()
-    ansfile.close()
+    ansfile.close()`
