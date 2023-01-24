@@ -1,7 +1,7 @@
 # 30 days automate the boring staff with Python
 
 ## Day 1: Generating random quiz files
-The lesson today is to generate 35 different quiz files with 50 different questions about capital of states. The code is below:
+#The lesson today is to generate 35 different quiz files with 50 different questions about capital of states. The code is below:
 `for quizNum in range(35):
     quizfile = open('quizfile%s.txt' %(quizNum+1), 'w')
     ansfile = open('quiz_answer%s.txt' %(quizNum+1), 'w')
